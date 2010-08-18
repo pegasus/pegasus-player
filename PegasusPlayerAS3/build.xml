@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="AS3 Application Build Script" basedir="." default="flex.it">
+
+    <property environment="env" />
+    <property file="build.properties" />
+    <property name="FLEX_HOME" value="${flex.sdk.location}"/>
+    <property name="external.lib" value="${pegasus.common.lib.swc.location}"/>
+    <property name="flex.output.dir" value="${app.root}/build"/>
+    <property name="html.template.loc" value="${app.root}/html-template"/>
+    	
+    <target name="flex.it" depends="init, flex.html">
+    	<echo message="Everybody get funky."/>
+        <echo message="Flex SDK location: ${FLEX_HOME}"/>
+        <!-- compile main mxml file -->
+        <compile_flex_app src-file="${app.root}/src/${app.name}.${app.extension}" out-file="${flex.output.dir}/${app.output.name}.swf" />
+    </target>  
+	
+    <target name="init" >
+    	<echo message="Initializing the build."/>
+    	<taskdef resource="flexTasks.tasks"  classpath="${FLEX_HOME}/ant/lib/flexTasks.jar" />
+        <mkdir dir="${flex.output.dir}"/>
+    </target>
+	
+	<target 
+        name="flex.html" depends="create-player.js">
+    	<echo message="Creating the HTML Wrapper"/>
+        <flex.html.wrapper.macrodef
+        	base.media.url="${base.media.url}"
+            width="${swf.width}"
+            height="${swf.height}"
+            title="${html.page.title}"
+            version.major="${flash.version.major}"
+            version.minor="${flash.version.minor}"
+            version.revision="${flash.version.revision}"
+            application="${app.output.name}"
+            swf="${app.output.name}"
+            bgcolor="${html.bgcolor}"
+            wrapper.dir="${html.template.loc}"
+            flex.output.dir="${flex.output.dir}"
+            output.html="${flex.output.dir}/index.html" />
+    </target>
+
+    <!-- create d2 module default screen -->
+    <target name="create-player.js" >
+        <echo>Creating player.js</echo>
+        <copy file="${build.files}/player.js" 
+              tofile="${flex.output.dir}/player.js" 
+              overwrite="${overwrite.files}" >
+            <filterchain>
+                <replacetokens>
+                    <token key="app-name"      value="${app.output.name}"      />
+                </replacetokens>
+            </filterchain>
+        </copy>
+    </target>
+	
+    <!-- Macro - compile the application  -->
+    <macrodef name="compile_flex_app">
+
+        <attribute name="src-file"/>
+        <attribute name="out-file"/>
+
+        <sequential>
+            <echo message="compile template:@{src-file} use-network:@{use-network}"/>
+            <echo message="@{src-file}"/>
+            <mxmlc file="@{src-file}" output="@{out-file}" incremental="false" actionscript-file-encoding="UTF-8" default-background-color="${html.bgcolor}">
+                <load-config filename="${FLEX_HOME}/frameworks/flex-config.xml"/>
+                <source-path path-element="${FLEX_HOME}/frameworks"/>
+                <compiler.source-path path-element="${app.root}/src"/>
+                <compiler.source-path path-element="${app.root}/libs"/>
+                <compiler.library-path dir="${app.root}/libs" append="true" includes="*.swc"/>
+                <compiler.library-path dir="${external.lib}" append="true" includes="PegasusPlayerCommonLib.swc"/>  
+                <compiler.library-path dir="${FLEX_HOME}/frameworks" append="true">
+                    <include name="libs" />
+                    <include name="locale/en_US" />
+                </compiler.library-path>
+            </mxmlc>
+        </sequential>
+     </macrodef>
+	
+	<!-- Macro - build the html wrapper  -->
+    <macrodef name="flex.html.wrapper.macrodef">
+    	<attribute name="base.media.url" default="@{base.media.url}" />
+    	<attribute name="width" default="@{width}" />
+        <attribute name="height" default="@{height}" />
+        <attribute name="title" default="" />
+        <attribute name="version.major" default="@{version.major}" />
+        <attribute name="version.minor" default="@{version.minor}" />
+        <attribute name="version.revision" default="@{version.revision}" />
+        <attribute name="application" default="" />
+        <attribute name="swf" default="application" />
+        <attribute name="bgcolor" default="#FFFFFF" />
+        <attribute name="wrapper.dir" />
+        <attribute name="flex.output.dir" />
+        <attribute name="output.html" />
+        <sequential>
+            <copy todir="@{flex.output.dir}">
+                <fileset dir="@{wrapper.dir}">
+                    <exclude name="**/index.template.html" />
+                </fileset>
+            </copy>
+            <copy 
+                file="@{wrapper.dir}/index.template.html"
+                tofile="@{output.html}" />
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{width\}"
+                replace="@{width}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{height\}"
+                replace="@{height}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{title\}"
+                replace="@{title}"
+                encoding="utf-8"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{version_major\}"
+                replace="@{version.major}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{version_minor\}"
+                replace="@{version.minor}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{version_revision\}"
+                replace="@{version.revision}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{application\}"
+                replace="@{application}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{bgcolor\}"
+                replace="@{bgcolor}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{swf\}"
+                replace="@{swf}"/>
+            <replaceregexp 
+                file="@{output.html}"
+                flags="gs"
+                match="\$\{base.media.url\}"
+                replace="@{base.media.url}"/>
+            <copy todir="${flex.output.dir}" flatten="true">
+                <resources>
+                    <file file="@{wrapper.dir}/expressInstall.swf"/>
+                    <file file="@{wrapper.dir}/swfobject.js"/>
+                </resources>
+            </copy>
+            <copy todir="${flex.output.dir}/assets/images" flatten="true">
+                <resources>
+                    <file file="${app.root}/src/assets/images/**/*"/>
+                </resources>
+            </copy>
+        </sequential>
+    </macrodef>
+</project>

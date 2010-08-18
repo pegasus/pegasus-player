@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:controls="com.visualempathy.display.controls.*"
+	verticalGap="1" 
+	horizontalAlign="left" 
+	width="300" xmlns:display="com.pegasusnews.playlist.view.controls.*">
+	
+	<mx:Script>
+		<![CDATA[
+			import com.pegasusnews.playlist.model.vo.PlaylistItemVO;
+			import com.pegasusnews.playlist.model.vo.ConfigVO;
+			
+			[Bindable] private var _currentTrack:PlaylistItemVO;
+			
+			[Bindable] public var config:ConfigVO;
+
+
+			public function get currentTrack():PlaylistItemVO
+			{
+				return _currentTrack;
+			}
+
+			public function set currentTrack(v:PlaylistItemVO):void
+			{
+				_currentTrack = v;
+				this.bandNameLabel.visible = this.bandNameLabel.includeInLayout = this._currentTrack.band && this._currentTrack.band.name && this._currentTrack.band.name.length>0
+				this.songNameLabel.visible = this.songNameLabel.includeInLayout = this._currentTrack.song && this._currentTrack.song.name && this._currentTrack.song.name.length>0
+				this.albumNameLabel.visible = this.albumNameLabel.includeInLayout = this._currentTrack.album && this._currentTrack.album.name && this._currentTrack.album.name.length>0;
+			}
+
+		]]>
+	</mx:Script>
+    <mx:HBox id="songNameLabel" visible="false" width="100%" horizontalGap="1">
+        <display:FavoriteButton 
+        	height="16" width="16" config="{this.config}" 
+        	favorite="{this._currentTrack.song.favoriting}" 
+        	enabled="{this._currentTrack.song.favoriting.is_favorited}"/>
+        <controls:LabelButton id="songLinkLabel" htmlText="&lt;u&gt;{this._currentTrack.song.name}&lt;/u&gt;" 
+        	width="250"
+        	textAlign="left" url="{this.config.base_url}{this._currentTrack.song.href}" 
+        	truncateToFit="true"/>
+    </mx:HBox>
+    <mx:HBox id="bandNameLabel" visible="false" width="100%" horizontalGap="1">
+        <display:FavoriteButton 
+        	height="16" width="16" config="{this.config}"  
+        	favorite="{this._currentTrack.band.favoriting}" 
+        	enabled="{this._currentTrack.band.favoriting.is_favorited}"/>
+        <mx:Label text="By:" fontWeight="bold"/>
+        <controls:LabelButton id="bandLinkLabel"  
+        	htmlText="&lt;u&gt;{this._currentTrack.band.name}&lt;/u&gt;" 
+        	width="250"  
+        	textAlign="left" url="{this.config.base_url}{this._currentTrack.band.href}" 
+        	truncateToFit="true"/>
+    </mx:HBox>
+    <mx:HBox id="albumNameLabel" visible="false" width="100%" horizontalGap="1">
+        <display:FavoriteButton 
+        	height="16" width="16"  config="{this.config}" 
+        	favorite="{this._currentTrack.album.favoriting}" 
+        	enabled="{this._currentTrack.album.favoriting.is_favorited}"  />
+        <mx:Label text="On:" fontWeight="bold"/>
+        <controls:LabelButton id="albumLinkLabel" 
+        	htmlText="&lt;u&gt;{this._currentTrack.album.name}&lt;/u&gt;" 
+        	width="250" 
+        	textAlign="left" url="{this.config.base_url}{this._currentTrack.album.href}" 
+        	truncateToFit="true"/>
+    </mx:HBox>
+</mx:VBox>

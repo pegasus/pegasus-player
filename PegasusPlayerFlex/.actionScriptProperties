@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actionScriptProperties mainApplicationPath="PegasusPlaylistPlayer.mxml" version="3">
+<compiler additionalCompilerArguments="-locale en_US -default-background-color #ffffff" copyDependentFiles="true" enableModuleDebug="false" flexSDK="Flex 3.2" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersion="9.0.124" htmlPlayerVersionCheck="true" outputFolderLocation="/Library/WebServer/Documents/pegasusPlaylistPlayer" outputFolderPath="bin-debug" rootURL="http://dev.joelhooks.com/pegasusPlaylistPlayer" sourceFolderPath="src" strict="true" useApolloConfig="false" verifyDigests="true" warn="true">
+<compilerSourcePath>
+<compilerSourcePathEntry kind="1" linkType="1" path="libs"/>
+</compilerSourcePath>
+<libraryPath defaultLinkType="3">
+<libraryPathEntry kind="4" path=""/>
+<libraryPathEntry kind="1" linkType="1" path="libs"/>
+<libraryPathEntry kind="3" linkType="1" path="/PegasusPlayerCommonLib/bin/PegasusPlayerCommonLib.swc" useDefaultLinkType="false"/>
+</libraryPath>
+<sourceAttachmentPath/>
+</compiler>
+<applications>
+<application path="PegasusPlaylistPlayer.mxml"/>
+</applications>
+<modules/>
+<buildCSSFiles/>
+</actionScriptProperties>

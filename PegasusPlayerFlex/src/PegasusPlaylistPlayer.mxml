@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	layout="absolute" 
+	minWidth="574" minHeight="265" 
+	height="265" width="574" 
+	creationComplete="init(); this.facade.startup(this); " 
+	xmlns:vo="com.pegasusnews.playlist.model.vo.*" 
+	backgroundGradientAlphas="[1.0, 1.0]" 
+	backgroundGradientColors="[#FFFFFF, #E9E9E9]" 
+	color="#000000" 
+	backgroundColor="#FFFFFF" xmlns:controls="com.visualempathy.display.controls.*" xmlns:display="com.pegasusnews.display.*" xmlns:components="com.pegasusnews.playlist.view.components.*">
+	<mx:Style source="assets/main.css"/>
+	
+	<mx:Script>
+		<![CDATA[
+			import com.pegasusnews.audioplayer.events.AudioPlayerErrorEvent;
+			import com.carlcalderon.arthropod.Debug;
+	        import com.pegasusnews.audioplayer.events.AudioPlayerEvent;
+			import com.pegasusnews.playlist.model.vo.ConfigVO;
+			import mx.events.IndexChangedEvent;
+			import com.pegasusnews.playlist.model.vo.PlaylistVO;
+			import com.pegasusnews.playlist.model.vo.PlaylistItemVO;
+			import com.pegasusnews.audioplayer.AudioPlayer;
+			import com.pegasusnews.playlist.PlaylistPlayerFacade;
+			
+			public var NAME:String = "PegasusPlaylistPlayer";
+			private var facade:PlaylistPlayerFacade = PlaylistPlayerFacade.getInstance(NAME);
+			
+			private static const SONG_LEAD:int = 2500;
+
+            [Embed(source="/assets/controls.swf", symbol="fwdBtn")]
+            private var ForwardButton:Class;
+            
+            [Embed(source="/assets/controls.swf", symbol="prevBtn")]
+            private var PreviousButton:Class;
+
+            [Embed(source="/assets/controls.swf", symbol="playBtn")]
+            private var PlayButton:Class;
+
+            [Embed(source="/assets/controls.swf", symbol="pauseBtn")]
+            private var PauseButton:Class;
+            
+            [Embed(source="/assets/controls.swf", symbol="volumeLow")]
+            private var VolumeLow:Class;
+
+            [Embed(source="/assets/controls.swf", symbol="volumeHigh")]
+            private var VolumeHigh:Class;
+            			
+			[Bindable] private var _player:AudioPlayer;
+			[Bindable] private var _playlist:PlaylistVO;
+			[Bindable] private var _currentlyPlaying:PlaylistItemVO;
+			[Bindable] private var currentPlayingIndex:int = 0;
+			
+			private var userMovingPosition:Boolean = false;
+			
+			[Bindable] private  var _config:ConfigVO;
+			
+
+			public function get config():ConfigVO
+			{
+				return _config;
+			}
+
+			public function set config(v:ConfigVO):void
+			{
+				_config = v;
+			}
+
+			public function get currentlyPlaying():PlaylistItemVO
+			{
+				return _currentlyPlaying;
+			}
+
+			public function get playlist():PlaylistVO
+			{
+				return _playlist;
+			}
+
+			public function set playlist(v:PlaylistVO):void
+			{
+				_playlist = v;
+			}
+			
+			public function get player():AudioPlayer
+			{
+				return _player;
+			}
+
+			public function playItem(index:int):void
+			{
+				this._currentlyPlaying = this.playlist.getItemAtIndex(index);
+				this.currentPlayingIndex = this.playlist.items.getItemIndex(this._currentlyPlaying);
+				this.player.load(config.base_url+this._currentlyPlaying.song.audio);
+				this.bandImage.source = this._currentlyPlaying.band.banner;
+				this.errorLabel.visible = false;
+				resetSongPosition()
+			}
+			
+			private function init():void
+			{
+				this._player = new AudioPlayer(this.root);
+				Debug.clear();
+				Debug.log("Pegasus Player Started", Debug.LIGHT_GREEN);
+				Security.allowDomain("media.pegasusnews.com");
+                var so:SharedObject = SharedObject.getLocal("PegasusVolumePreset");
+                if(so.data.volume)
+                {
+                    this.volumeSlider.value = so.data.volume;
+                    this.player.volume = this.volumeSlider.value;                   
+                }
+
+                so.flush();
+			    this.player.addEventListener(AudioPlayerEvent.AUDIO_POSITION_UPDATE, handlePlayerPosition);
+			    this.player.addEventListener(AudioPlayerEvent.AUDIO_SONG_COMPLETE, handleSongComplete);
+			    this.player.addEventListener(AudioPlayerErrorEvent.INCOMPATIBLE_FILE_FORMAT, handleIncompatible);
+			    this.player.addEventListener(AudioPlayerEvent.AUDIO_PLAYER_PLAYING, handlePlayEvent);
+			    this.player.addEventListener(AudioPlayerEvent.AUDIO_PLAYER_PAUSED, handlePauseEvent);
+			    this.player.addEventListener(AudioPlayerEvent.AUDIO_PLAYER_STOPPED, handlePauseEvent);
+			}
+			
+			private function handleVolumeSliderChange(event:Event):void
+			{
+			    this.player.volume = this.volumeSlider.value;
+			}
+			
+			private function handlePlayerPosition(event:AudioPlayerEvent):void
+			{
+			    if(!this.userMovingPosition)
+			        this.progressSlider.value = this.player.getCurrentPlayedPercentage();
+			    this.songPositionLabel.text = this.player.getFormatedPosition();
+			}
+			
+			private function handleUserStartChangeTime():void
+			{
+			    this.userMovingPosition = true;
+			}
+			
+			private function handleUserChangeTime():void
+			{
+			    this.player.jumpToSongPosition(this.progressSlider.value * 100);
+			    this.userMovingPosition = false;
+			    this.player.play();
+			}
+			
+			private function handleTrackClick(event:MouseEvent):void
+			{
+			    this.userMovingPosition = true;
+			    this.progressSlider.validateNow();
+			    event.updateAfterEvent()
+			    this.handleUserChangeTime();
+			}
+			
+			private function handleTogglePlay():void
+			{
+			    if(this.player.isPlaying)
+			        this.player.pause();
+			    else
+			        this.player.play();
+			}
+			
+			private function handleNext():void
+			{
+			    this.progressSlider.value = 0;
+			    var indexToPlay:int = 0;
+			    if(this.currentPlayingIndex!=this.playlist.items.length-1)
+			         indexToPlay = this.currentPlayingIndex+1;
+			    this.playItem(indexToPlay)
+			}
+			
+			private function handlePrevious():void
+			{
+			    if(this.player.currentPosition>SONG_LEAD)
+			    {
+			        this.player.jumpToSongPosition(0)
+			        this.progressSlider.value = 0;
+			        resetSongPosition();
+			        return;
+			    }
+			    
+			    var indexToPlay:int = this.playlist.items.length-1;
+			    this.progressSlider.value = 0;
+                if(this.currentPlayingIndex!=0)
+                     indexToPlay = this.currentPlayingIndex-1;
+			    this.playItem(indexToPlay)
+			}
+			
+			private function setNextSongLabel():void
+			{
+				this.nextSongInfo.visible=true;
+				var index:int = 0;
+				if(this.currentPlayingIndex!=this.playlist.items.length-1)
+				{
+					index = this.currentPlayingIndex+1
+				}
+				this.nextSongNameLabel.htmlText="<u>"+this.playlist.getItemAtIndex(index).song.name+"</u>";
+				this.nextSongNameLabel.url = this._config.base_url + this.playlist.getItemAtIndex(index).song.href;
+				this.nextBandNameLabel.htmlText="<u>"+this.playlist.getItemAtIndex(index).band.name+"</u>"
+				this.nextBandNameLabel.url = this._config.base_url + this.playlist.getItemAtIndex(index).band.href;
+			}
+			
+			private function resetSongPosition():void
+			{
+				this.songPositionLabel.text = "0:00/0:00";
+				setNextSongLabel()
+			}
+			
+			private function saveVolumeValue():void
+			{
+			    var so:SharedObject = SharedObject.getLocal("PegasusVolumePreset");
+			    so.data.volume = this.volumeSlider.value;
+			    so.flush();
+			}
+			
+			private function handleIncompatible(event:AudioPlayerErrorEvent):void
+			{
+				this.errorLabel.visible = true;
+				this.errorLabel.text = event.message;
+			}
+			
+			private function handleSongComplete(event:AudioPlayerEvent):void
+			{
+				this.handleNext();
+			}
+			
+			private function handlePlayEvent(event:Event):void
+			{
+				this.playButton.source = new PauseButton();
+			    this.playButton.validateNow()
+			}
+			
+			private function handlePauseEvent(event:Event):void
+			{
+				this.playButton.source = new PlayButton();
+				this.playButton.validateNow()
+			}
+		]]>
+	</mx:Script>
+	<vo:AlbumVO/>
+	<vo:BandVO/>
+	<vo:EventVO/>
+	<vo:FavoriteVO/>
+	<vo:PlaylistItemVO/>
+	<vo:PlaylistVO/>
+	<vo:SongVO/>
+	<mx:Label id="errorLabel" visible="false"  x="0" text="There is an error. Cannot play this song." color="#FF0000" fontWeight="normal" width="100%" textAlign="center" bottom="43" fontSize="8"/>
+	<mx:HBox  horizontalAlign="right" width="100%" paddingRight="10" verticalAlign="middle" clipContent="true" x="0" y="65">
+	    <mx:Canvas width="100%" height="100%" clipContent="true" horizontalScrollPolicy="off" verticalScrollPolicy="off">
+            <mx:Image 
+                x="25"
+                source="{this._currentlyPlaying.band.banner}" 
+                width="540" 
+                height="140" 
+                id="bandImage" 
+                horizontalAlign="center" 
+                verticalAlign="middle" scaleContent="false" y="-3"/>	        
+	    </mx:Canvas>
+
+	</mx:HBox>
+	<display:Spinner visible="{this._player.isBuffering}" height="20" tickColor="#626262" size="25" numTicks="10" width="20" x="547" y="2"/>
+	<mx:VSlider 
+	    x="3" y="31" 
+	    value="1" 
+	    styleName="pegSlider" 
+	    showDataTip="false" id="volumeSlider" 
+	    change="handleVolumeSliderChange(event)" thumbRelease="saveVolumeValue()" 
+	    liveDragging="true" slideDuration="0" showTrackHighlight="true" 
+	    minimum="0" maximum="1" height="192.5" width="18"/>
+	<mx:Image click="this.player.volume = 1; this.volumeSlider.value=1" x="9" y="16" width="16.4" height="13.2" source="{new VolumeHigh()}"/>
+	<mx:Image click="this.player.volume = 0; this.volumeSlider.value=0" x="11" y="224" width="10.4" height="11.8" source="{new VolumeLow()}"/>
+	<mx:HSlider 
+	    x="112" y="206" 
+	    styleName="pegSlider" 
+	    width="391" 
+	    id="progressSlider" 
+	    minimum="0" maximum="1" 
+	    height="14.5" 
+	    showDataTip="false"   
+	    thumbPress="this.handleUserStartChangeTime()" 
+	    thumbRelease="this.handleUserChangeTime()"
+	    click="handleTrackClick(event)" allowTrackClick="true" slideDuration="0" showTrackHighlight="true"/>
+	<components:TrackInfo id="currentTrackInfoContainer" config="{this._config}" currentTrack="{this._currentlyPlaying}"  y="5" x="270"/>
+	<mx:HBox x="36" y="205" verticalAlign="middle">
+	    <mx:Image width="15" height="15" source="{new PreviousButton}" click="this.handlePrevious()" buttonMode="true"/>
+	    <mx:Image id="playButton" width="25" height="25" source="{new PauseButton}" click="handleTogglePlay()" buttonMode="true"/>
+	    <mx:Image width="15" height="15" source="{new ForwardButton}" click="this.handleNext()" buttonMode="true"/>
+	</mx:HBox>
+	<mx:Image source="assets/images/site_banner.png" x="32" y="7" width="230" height="51"/>
+	<mx:Label id="songPositionLabel" x="502" y="208" text="0:00/0:00"/>
+	<mx:VBox id="nextSongInfo" verticalGap="0" horizontalAlign="left" fontSize="10" right="5" bottom="3">
+		<mx:HBox horizontalAlign="left" horizontalGap="0">
+			<mx:Label text="next:" fontWeight="bold"/>
+			<mx:VBox verticalGap="0">
+				<controls:LabelButton id="nextSongNameLabel" truncateToFit="true"/>
+				<controls:LabelButton id="nextBandNameLabel" truncateToFit="true"/>	
+			</mx:VBox>
+		</mx:HBox>
+	</mx:VBox>
+</mx:Application>

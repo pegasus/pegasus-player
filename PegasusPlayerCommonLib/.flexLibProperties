@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flexLibProperties version="1">
+<includeClasses>
+<classEntry path="com.carlcalderon.arthropod.Debug"/>
+<classEntry path="com.ericfeminella.collections.HashMap"/>
+<classEntry path="com.ericfeminella.collections.IMap"/>
+<classEntry path="com.ericfeminella.display.AlertWindowHelper"/>
+<classEntry path="com.ericfeminella.utils.DeepCopy"/>
+<classEntry path="com.ericfeminella.utils.ManagedTimer"/>
+<classEntry path="com.pegasusnews.audioplayer.AudioPlayer"/>
+<classEntry path="com.pegasusnews.audioplayer.enum.AudioPlayerExternalEventEnum"/>
+<classEntry path="com.pegasusnews.audioplayer.events.AudioPlayerErrorEvent"/>
+<classEntry path="com.pegasusnews.audioplayer.events.AudioPlayerEvent"/>
+<classEntry path="com.pegasusnews.display.Spinner"/>
+<classEntry path="com.pegasusnews.display.Tick"/>
+<classEntry path="com.pegasusnews.util.Format"/>
+</includeClasses>
+<includeResources/>
+<namespaceManifests/>
+</flexLibProperties>

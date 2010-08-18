@@ -1,0 +1,3004 @@
+{
+  "next_page": null, 
+  "is_randomized": true, 
+  "items": [
+    {
+      "album": {
+        "href": "/albums/finally_bcb/", 
+        "name": "Finally...", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/412/", 
+          "favorite": "/users/favorite/add/56/412/", 
+          "is_favorited": true
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.bartcrow.com", 
+        "name": "Bart Crow Band", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/bartcrowband520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/800/", 
+          "favorite": "/users/favorite/add/53/800/", 
+          "is_favorited": true
+        }, 
+        "href": "/bands/bart-crow-band/", 
+        "next_show": {
+          "href": "/events/2009/jun/17/146015/", 
+          "time": "2009-06-17 19:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/967/", 
+          "favorite": "/users/favorite/add/57/967/", 
+          "is_favorited": true
+        }, 
+        "href": "/songs/967/", 
+        "name": "Wear My Ring", 
+        "audio": "/downloads/967/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Dooney \"Da Priest\"", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/dooney.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1470/", 
+          "favorite": "/users/favorite/add/53/1470/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/dooney-da-priest/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1785/", 
+          "favorite": "/users/favorite/add/57/1785/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1785/", 
+        "name": "Pull Yo Pants Up", 
+        "audio": "/downloads/1785/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.kevinbanford.com", 
+        "name": "Kevin Banford", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/kevinbanford520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1064/", 
+          "favorite": "/users/favorite/add/53/1064/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/kevin-banford/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1347/", 
+          "favorite": "/users/favorite/add/57/1347/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1347/", 
+        "name": "Cowgirls Rodeo", 
+        "audio": "/downloads/1347/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ad_stone/", 
+        "name": "Stoned and Confused", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/140/", 
+          "favorite": "/users/favorite/add/56/140/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://alligatordave.com", 
+        "name": "Alligator Dave", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/alligatordave520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/489/", 
+          "favorite": "/users/favorite/add/53/489/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/alligator-dave/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/424/", 
+          "favorite": "/users/favorite/add/57/424/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/424/", 
+        "name": "Spank My Monkey", 
+        "audio": "/downloads/424/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "P.P.T.", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/ppt.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/802/", 
+          "favorite": "/users/favorite/add/53/802/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/ppt/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1055/", 
+          "favorite": "/users/favorite/add/57/1055/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1055/", 
+        "name": "We're Rowdy, Loud, and Proud", 
+        "audio": "/downloads/1055/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/trw_knot/", 
+        "name": "Knotty Tales", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/148/", 
+          "favorite": "/users/favorite/add/56/148/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.trinityriverwhalers.com", 
+        "name": "Trinity River Whalers", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/trinityriverwhalers520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/431/", 
+          "favorite": "/users/favorite/add/53/431/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/trinity-river-whalers/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/676/", 
+          "favorite": "/users/favorite/add/57/676/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/676/", 
+        "name": "Irish Blessing", 
+        "audio": "/downloads/676/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "Down South All-Stars", 
+        "banner": null, 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/943/", 
+          "favorite": "/users/favorite/add/53/943/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/down-south-all-stars/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1072/", 
+          "favorite": "/users/favorite/add/57/1072/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1072/", 
+        "name": "Them Dallas Mavericks Ballin'", 
+        "audio": "/downloads/1072/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.skiporlando.com", 
+        "name": "Skip Orlando", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/skiporlando520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1358/", 
+          "favorite": "/users/favorite/add/53/1358/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/skip-orlando/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1697/", 
+          "favorite": "/users/favorite/add/57/1697/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1697/", 
+        "name": "How Can I Miss You If You Won't Go Away?", 
+        "audio": "/downloads/1697/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.lazertheband.com", 
+        "name": "Lazer", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/lazer520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/482/", 
+          "favorite": "/users/favorite/add/53/482/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/lazer/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1069/", 
+          "favorite": "/users/favorite/add/57/1069/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1069/", 
+        "name": "M-F-F-L", 
+        "audio": "/downloads/1069/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/tvo/", 
+        "name": "Trials of Van Occupanther", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/545/", 
+          "favorite": "/users/favorite/add/56/545/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.midlake.net", 
+        "name": "Midlake", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/midlake_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/35/", 
+          "favorite": "/users/favorite/add/53/35/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/midlake/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/999/", 
+          "favorite": "/users/favorite/add/57/999/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/999/", 
+        "name": "Roscoe", 
+        "audio": "/downloads/999/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "3 Alarm", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/3alarmedit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/307/", 
+          "favorite": "/users/favorite/add/53/307/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/3-alarm/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1058/", 
+          "favorite": "/users/favorite/add/57/1058/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1058/", 
+        "name": "Go Mavericks", 
+        "audio": "/downloads/1058/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.room4spacemann.com", 
+        "name": "Spacemann", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/Spacemann520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/939/", 
+          "favorite": "/users/favorite/add/53/939/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/spacemann/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1066/", 
+          "favorite": "/users/favorite/add/57/1066/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1066/", 
+        "name": "Mavs Ballin'", 
+        "audio": "/downloads/1066/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.deanstrickland.com/", 
+        "name": "Dean Strickland", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/strickland.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1015/", 
+          "favorite": "/users/favorite/add/53/1015/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/dean-strickland/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1174/", 
+          "favorite": "/users/favorite/add/57/1174/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1174/", 
+        "name": "I Love Texas", 
+        "audio": "/downloads/1174/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.fruitcake-superbeing.com", 
+        "name": "FruitCake-SuperBeing", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/fruitcake-superbeing520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/601/", 
+          "favorite": "/users/favorite/add/53/601/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/fruitcake-superbeing/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1057/", 
+          "favorite": "/users/favorite/add/57/1057/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1057/", 
+        "name": "Rowdy Loud Proud", 
+        "audio": "/downloads/1057/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.scottmccurry.com", 
+        "name": "Scott McCurry & The Mercenaries", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/scott.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/273/", 
+          "favorite": "/users/favorite/add/53/273/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/scott-mccurry-band/", 
+        "next_show": {
+          "href": "/events/2009/may/29/139301/", 
+          "time": "2009-05-29 19:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1059/", 
+          "favorite": "/users/favorite/add/57/1059/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1059/", 
+        "name": "We're Gonna Win It This Time", 
+        "audio": "/downloads/1059/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ls_one/", 
+        "name": "One With Bass and Drums", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/10/", 
+          "favorite": "/users/favorite/add/56/10/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.levismith.net/", 
+        "name": "Levi Smith", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/levismith_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/14/", 
+          "favorite": "/users/favorite/add/53/14/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/levi-smith/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/7/", 
+          "favorite": "/users/favorite/add/57/7/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/7/", 
+        "name": "I'd Like To Think So", 
+        "audio": "/downloads/7/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.betamuzicgroup.com/artists/dirtyred.html", 
+        "name": "Dirty Red", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/dirtyred520x140_.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/938/", 
+          "favorite": "/users/favorite/add/53/938/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/dirty-red/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1063/", 
+          "favorite": "/users/favorite/add/57/1063/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1063/", 
+        "name": "Go Mavs", 
+        "audio": "/downloads/1063/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.thefedsrock.com", 
+        "name": "Feds", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/feds_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/172/", 
+          "favorite": "/users/favorite/add/53/172/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/feds/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1061/", 
+          "favorite": "/users/favorite/add/57/1061/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1061/", 
+        "name": "Mavs On Fire Tonight", 
+        "audio": "/downloads/1061/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.jointmethod.com", 
+        "name": "Jointmethod", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/jointmethod520x140_.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/38/", 
+          "favorite": "/users/favorite/add/53/38/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/jointmethod/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1060/", 
+          "favorite": "/users/favorite/add/57/1060/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1060/", 
+        "name": "We Bring It (Mavs Mix)", 
+        "audio": "/downloads/1060/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.southcityonline.com", 
+        "name": "South City", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/southcity520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/509/", 
+          "favorite": "/users/favorite/add/53/509/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/south-city/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1073/", 
+          "favorite": "/users/favorite/add/57/1073/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1073/", 
+        "name": "Go Mavs", 
+        "audio": "/downloads/1073/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.paulbyrd.com", 
+        "name": "Paul Byrd Band", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/paulbyrd_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/197/", 
+          "favorite": "/users/favorite/add/53/197/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/paul-byrd-band/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1064/", 
+          "favorite": "/users/favorite/add/57/1064/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1064/", 
+        "name": "The Maverick Crew", 
+        "audio": "/downloads/1064/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "Rubba Rode", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/rubbarode520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/647/", 
+          "favorite": "/users/favorite/add/53/647/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/rubba-rode/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1070/", 
+          "favorite": "/users/favorite/add/57/1070/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1070/", 
+        "name": "Its Time To Win", 
+        "audio": "/downloads/1070/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.olospo.com", 
+        "name": "Olospo", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/olospo_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/3/", 
+          "favorite": "/users/favorite/add/53/3/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/olospo/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1062/", 
+          "favorite": "/users/favorite/add/57/1062/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1062/", 
+        "name": "Destruction, Terror, and Mayhem", 
+        "audio": "/downloads/1062/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.soultreemusic.com", 
+        "name": "Soultree", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/soultree_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/276/", 
+          "favorite": "/users/favorite/add/53/276/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/soultree/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1071/", 
+          "favorite": "/users/favorite/add/57/1071/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1071/", 
+        "name": "We Gonna Take It", 
+        "audio": "/downloads/1071/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.rivetheadonline.com", 
+        "name": "Rivethead", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/rivethead520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/543/", 
+          "favorite": "/users/favorite/add/53/543/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/rivethead/", 
+        "next_show": {
+          "href": "/events/2009/jun/06/135087/", 
+          "time": "2009-06-06 20:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1065/", 
+          "favorite": "/users/favorite/add/57/1065/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1065/", 
+        "name": "Go Mavs", 
+        "audio": "/downloads/1065/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "Memories Past ", 
+        "banner": null, 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/507/", 
+          "favorite": "/users/favorite/add/53/507/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/memories-past/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1068/", 
+          "favorite": "/users/favorite/add/57/1068/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1068/", 
+        "name": "DALLAS MAVERICKS", 
+        "audio": "/downloads/1068/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/mavs2006/", 
+        "name": "Dallas Mavericks' Official Playoff Song Contest 2006", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/393/", 
+          "favorite": "/users/favorite/add/56/393/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.benzephyr.com", 
+        "name": "Ben Zephyr", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/bzedit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/209/", 
+          "favorite": "/users/favorite/add/53/209/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/ben-zephyr/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1067/", 
+          "favorite": "/users/favorite/add/57/1067/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1067/", 
+        "name": "Rowdy Proud Loud", 
+        "audio": "/downloads/1067/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.sortaweb.com", 
+        "name": "Sorta", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/sorta_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/65/", 
+          "favorite": "/users/favorite/add/53/65/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/sorta/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/293/", 
+          "favorite": "/users/favorite/add/57/293/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/293/", 
+        "name": "Eighty-Five Feet", 
+        "audio": "/downloads/293/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.southernmoststar.com", 
+        "name": "Southern Most Star", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/southernmoststar_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/2/", 
+          "favorite": "/users/favorite/add/53/2/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/southern-most-star/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/13/", 
+          "favorite": "/users/favorite/add/57/13/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/13/", 
+        "name": "Acoustic Rap", 
+        "audio": "/downloads/13/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.deanstrickland.com/", 
+        "name": "Dean Strickland", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/strickland.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1015/", 
+          "favorite": "/users/favorite/add/53/1015/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/dean-strickland/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1175/", 
+          "favorite": "/users/favorite/add/57/1175/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1175/", 
+        "name": "Texas", 
+        "audio": "/downloads/1175/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://upsideband.com", 
+        "name": "Upside", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/upside_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/157/", 
+          "favorite": "/users/favorite/add/53/157/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/upside/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/355/", 
+          "favorite": "/users/favorite/add/57/355/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/355/", 
+        "name": "Gunfighter", 
+        "audio": "/downloads/355/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Data Discotheque", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/router_520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/987/", 
+          "favorite": "/users/favorite/add/53/987/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/1337-g33k-b3at-1gb/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1187/", 
+          "favorite": "/users/favorite/add/57/1187/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1187/", 
+        "name": "Hutzumi", 
+        "audio": "/downloads/1187/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ls_one/", 
+        "name": "One With Bass and Drums", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/10/", 
+          "favorite": "/users/favorite/add/56/10/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.levismith.net/", 
+        "name": "Levi Smith", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/levismith_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/14/", 
+          "favorite": "/users/favorite/add/53/14/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/levi-smith/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/8/", 
+          "favorite": "/users/favorite/add/57/8/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/8/", 
+        "name": "Bitterness is Sexy", 
+        "audio": "/downloads/8/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/murry-going/", 
+        "name": "I Don't Know Where I'm Going But I'm On My Way", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/903/", 
+          "favorite": "/users/favorite/add/56/903/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "Murry Hammond", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/murry3.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1785/", 
+          "favorite": "/users/favorite/add/53/1785/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/murry-hammond/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1855/", 
+          "favorite": "/users/favorite/add/57/1855/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1855/", 
+        "name": "Lost At Sea", 
+        "audio": "/downloads/1855/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ad_stone/", 
+        "name": "Stoned and Confused", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/140/", 
+          "favorite": "/users/favorite/add/56/140/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://alligatordave.com", 
+        "name": "Alligator Dave", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/alligatordave520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/489/", 
+          "favorite": "/users/favorite/add/53/489/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/alligator-dave/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/422/", 
+          "favorite": "/users/favorite/add/57/422/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/422/", 
+        "name": "Eager Beaver", 
+        "audio": "/downloads/422/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.enerjazz.com/jazz", 
+        "name": "Texas Instruments Jazz Band", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/texasinst_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/227/", 
+          "favorite": "/users/favorite/add/53/227/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/texas-instruments-jazz-band/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1454/", 
+          "favorite": "/users/favorite/add/57/1454/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1454/", 
+        "name": "Quincy And The Count", 
+        "audio": "/downloads/1454/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Data Discotheque", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/router_520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/987/", 
+          "favorite": "/users/favorite/add/53/987/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/1337-g33k-b3at-1gb/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1186/", 
+          "favorite": "/users/favorite/add/57/1186/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1186/", 
+        "name": "Bill Gates Revolution", 
+        "audio": "/downloads/1186/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/burn_your_bridges/", 
+        "name": "Burn Your Bridges", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/224/", 
+          "favorite": "/users/favorite/add/56/224/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.iconoclasttheband.com", 
+        "name": "Iconoclast", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/iconoclast520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/519/", 
+          "favorite": "/users/favorite/add/53/519/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/iconoclast/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/664/", 
+          "favorite": "/users/favorite/add/57/664/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/664/", 
+        "name": "Walk On In", 
+        "audio": "/downloads/664/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/inter_funda_stifle/", 
+        "name": "Inter. Funda. Stifle.", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/216/", 
+          "favorite": "/users/favorite/add/56/216/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.fairtomidland.com", 
+        "name": "Fair To Midland", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/fairtomidland_520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/379/", 
+          "favorite": "/users/favorite/add/53/379/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/fair-midland/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/766/", 
+          "favorite": "/users/favorite/add/57/766/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/766/", 
+        "name": "The Walls of Jericho", 
+        "audio": "/downloads/766/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.scottcopelandmusic.com", 
+        "name": "Scott Copeland & Sidetracks", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/scottcopeland520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/264/", 
+          "favorite": "/users/favorite/add/53/264/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/scott-copeland-sidetracks/", 
+        "next_show": {
+          "href": "/events/2009/jun/07/147666/", 
+          "time": "2009-06-07 14:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/777/", 
+          "favorite": "/users/favorite/add/57/777/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/777/", 
+        "name": "Rebel Soul", 
+        "audio": "/downloads/777/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ls_songs/", 
+        "name": "Songs That Might Take Us Somewhere", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/9/", 
+          "favorite": "/users/favorite/add/56/9/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.levismith.net/", 
+        "name": "Levi Smith", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/levismith_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/14/", 
+          "favorite": "/users/favorite/add/53/14/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/levi-smith/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/6/", 
+          "favorite": "/users/favorite/add/57/6/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/6/", 
+        "name": "That's What I Meant by Goodbye", 
+        "audio": "/downloads/6/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.old97s.com", 
+        "name": "Old 97's", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/bandedit_.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/7/", 
+          "favorite": "/users/favorite/add/53/7/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/old_97s/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/64/", 
+          "favorite": "/users/favorite/add/57/64/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/64/", 
+        "name": "Beer Cans", 
+        "audio": "/downloads/64/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.peterschmidt.us", 
+        "name": "Peter Schmidt and His Gentlemen Scholars", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/peterschmidt_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/425/", 
+          "favorite": "/users/favorite/add/53/425/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/peter-schmidt-and-his-gentlemen-scholars/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/520/", 
+          "favorite": "/users/favorite/add/57/520/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/520/", 
+        "name": "Long Lonely Summer", 
+        "audio": "/downloads/520/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.1000milesfromhome.com", 
+        "name": "1000 Miles From Home", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/thousandmiles520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/919/", 
+          "favorite": "/users/favorite/add/53/919/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/thousand-miles-home/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1745/", 
+          "favorite": "/users/favorite/add/57/1745/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1745/", 
+        "name": "Betrayal", 
+        "audio": "/downloads/1745/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/murry-going/", 
+        "name": "I Don't Know Where I'm Going But I'm On My Way", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/903/", 
+          "favorite": "/users/favorite/add/56/903/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "Murry Hammond", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/murry3.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1785/", 
+          "favorite": "/users/favorite/add/53/1785/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/murry-hammond/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1856/", 
+          "favorite": "/users/favorite/add/57/1856/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1856/", 
+        "name": "Satan, Your Kingdom Must Come Down II", 
+        "audio": "/downloads/1856/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/c_fall/", 
+        "name": "Falling Is Faster", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/68/", 
+          "favorite": "/users/favorite/add/56/68/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.committedband.com", 
+        "name": "Committed", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/committed_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/158/", 
+          "favorite": "/users/favorite/add/53/158/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/committed/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/101/", 
+          "favorite": "/users/favorite/add/57/101/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/101/", 
+        "name": "Looking Up", 
+        "audio": "/downloads/101/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/murry-going/", 
+        "name": "I Don't Know Where I'm Going But I'm On My Way", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/903/", 
+          "favorite": "/users/favorite/add/56/903/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "Murry Hammond", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/murry3.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1785/", 
+          "favorite": "/users/favorite/add/53/1785/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/murry-hammond/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1854/", 
+          "favorite": "/users/favorite/add/57/1854/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1854/", 
+        "name": "I Believe, I Believe", 
+        "audio": "/downloads/1854/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/on_promenade/", 
+        "name": "On Promenade", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/811/", 
+          "favorite": "/users/favorite/add/56/811/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.dougburr.com", 
+        "name": "Doug Burr", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/dougburr_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/43/", 
+          "favorite": "/users/favorite/add/53/43/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/doug-burr/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1784/", 
+          "favorite": "/users/favorite/add/57/1784/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1784/", 
+        "name": "In the Garden", 
+        "audio": "/downloads/1784/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/when_different_becomes_dangerous/", 
+        "name": "When Different Becomes Dangerous", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/749/", 
+          "favorite": "/users/favorite/add/56/749/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "", 
+        "name": "Salutation", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/salutation.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1386/", 
+          "favorite": "/users/favorite/add/53/1386/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/salutation/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1712/", 
+          "favorite": "/users/favorite/add/57/1712/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1712/", 
+        "name": "Black Tie Affair", 
+        "audio": "/downloads/1712/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/the_revolution_mm/", 
+        "name": "Revolution Has Begun", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/241/", 
+          "favorite": "/users/favorite/add/56/241/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.madmexicans.com", 
+        "name": "Mad Mexicans", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/madmexicans_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/141/", 
+          "favorite": "/users/favorite/add/53/141/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/mad-mexicans/", 
+        "next_show": {
+          "href": "/events/2009/may/30/146367/", 
+          "time": "2009-05-30 21:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/577/", 
+          "favorite": "/users/favorite/add/57/577/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/577/", 
+        "name": "Pinche Guey", 
+        "audio": "/downloads/577/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Down South All-Stars", 
+        "banner": null, 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/943/", 
+          "favorite": "/users/favorite/add/53/943/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/down-south-all-stars/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1132/", 
+          "favorite": "/users/favorite/add/57/1132/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1132/", 
+        "name": "Trunk On Crack", 
+        "audio": "/downloads/1132/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Down South All-Stars", 
+        "banner": null, 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/943/", 
+          "favorite": "/users/favorite/add/53/943/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/down-south-all-stars/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1133/", 
+          "favorite": "/users/favorite/add/57/1133/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1133/", 
+        "name": "Bottom To The Top", 
+        "audio": "/downloads/1133/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ad_stone/", 
+        "name": "Stoned and Confused", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/140/", 
+          "favorite": "/users/favorite/add/56/140/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://alligatordave.com", 
+        "name": "Alligator Dave", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/alligatordave520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/489/", 
+          "favorite": "/users/favorite/add/53/489/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/alligator-dave/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/423/", 
+          "favorite": "/users/favorite/add/57/423/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/423/", 
+        "name": "Dirt Talkin'", 
+        "audio": "/downloads/423/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Slack", 
+        "banner": null, 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/215/", 
+          "favorite": "/users/favorite/add/53/215/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/slack/", 
+        "next_show": {
+          "href": "/events/2009/jul/18/146758/", 
+          "time": "2009-07-18 21:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1710/", 
+          "favorite": "/users/favorite/add/57/1710/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1710/", 
+        "name": "You Deserve Better", 
+        "audio": "/downloads/1710/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.jackingram.net/", 
+        "name": "Jack Ingram", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/JACKEDIT.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/380/", 
+          "favorite": "/users/favorite/add/53/380/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/jack-ingram/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/180/", 
+          "favorite": "/users/favorite/add/57/180/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/180/", 
+        "name": "Barbie Doll", 
+        "audio": "/downloads/180/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Down South All-Stars", 
+        "banner": null, 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/943/", 
+          "favorite": "/users/favorite/add/53/943/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/down-south-all-stars/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1131/", 
+          "favorite": "/users/favorite/add/57/1131/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1131/", 
+        "name": "What It Do (feat. Blacc Teezy)", 
+        "audio": "/downloads/1131/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Data Discotheque", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/router_520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/987/", 
+          "favorite": "/users/favorite/add/53/987/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/1337-g33k-b3at-1gb/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1185/", 
+          "favorite": "/users/favorite/add/57/1185/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1185/", 
+        "name": "1 800 n00b", 
+        "audio": "/downloads/1185/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/pareidolia_rh/", 
+        "name": "Pareidolia", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/264/", 
+          "favorite": "/users/favorite/add/56/264/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.recordhop.com", 
+        "name": "Record Hop", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/recordhop.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/31/", 
+          "favorite": "/users/favorite/add/53/31/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/record-hop/", 
+        "next_show": {
+          "href": "/events/2009/may/30/146673/", 
+          "time": "2009-05-30 22:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/483/", 
+          "favorite": "/users/favorite/add/57/483/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/483/", 
+        "name": "Last Second MUZAKKED", 
+        "audio": "/downloads/483/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.thesecrethandshake.net", 
+        "name": "Secret Handshake", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/secrethandshake.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1005/", 
+          "favorite": "/users/favorite/add/53/1005/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/secret-handshake/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1147/", 
+          "favorite": "/users/favorite/add/57/1147/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1147/", 
+        "name": "The Glitch", 
+        "audio": "/downloads/1147/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/hb_vv/", 
+        "name": "Virtue and Vice Ministry", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/104/", 
+          "favorite": "/users/favorite/add/56/104/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.happybullets.com", 
+        "name": "Happy Bullets", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/happybullets_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/52/", 
+          "favorite": "/users/favorite/add/53/52/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/happy-bullets/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/468/", 
+          "favorite": "/users/favorite/add/57/468/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/468/", 
+        "name": "Good Day", 
+        "audio": "/downloads/468/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Data Discotheque", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/router_520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/987/", 
+          "favorite": "/users/favorite/add/53/987/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/1337-g33k-b3at-1gb/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1188/", 
+          "favorite": "/users/favorite/add/57/1188/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1188/", 
+        "name": "Nerd Love", 
+        "audio": "/downloads/1188/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/trw_knot/", 
+        "name": "Knotty Tales", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/148/", 
+          "favorite": "/users/favorite/add/56/148/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.trinityriverwhalers.com", 
+        "name": "Trinity River Whalers", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/trinityriverwhalers520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/431/", 
+          "favorite": "/users/favorite/add/53/431/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/trinity-river-whalers/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/678/", 
+          "favorite": "/users/favorite/add/57/678/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/678/", 
+        "name": "Lannigan's Ball", 
+        "audio": "/downloads/678/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/faktion_cd/", 
+        "name": "Faktion", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/218/", 
+          "favorite": "/users/favorite/add/56/218/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.faktionband.com", 
+        "name": "Faktion", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/faktion.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/164/", 
+          "favorite": "/users/favorite/add/53/164/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/faktion/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/169/", 
+          "favorite": "/users/favorite/add/57/169/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/169/", 
+        "name": "Distance", 
+        "audio": "/downloads/169/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Electric Mountain Rotten Apple Gang", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/electricmountain520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1105/", 
+          "favorite": "/users/favorite/add/53/1105/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/electric-mountain-rotten-apple-gang/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1424/", 
+          "favorite": "/users/favorite/add/57/1424/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1424/", 
+        "name": "Cluck 'Ol Hen", 
+        "audio": "/downloads/1424/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.texasprairieband.com", 
+        "name": "Texas Prairie Band", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/P10100571.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1325/", 
+          "favorite": "/users/favorite/add/53/1325/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/texas-prairie-band/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1694/", 
+          "favorite": "/users/favorite/add/57/1694/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1694/", 
+        "name": "He Took Your Place", 
+        "audio": "/downloads/1694/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/pg_st/", 
+        "name": "Pleasant Grove", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/119/", 
+          "favorite": "/users/favorite/add/56/119/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.pleasantgrovetexas.com/", 
+        "name": "Pleasant Grove", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/pleasantgrove_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/106/", 
+          "favorite": "/users/favorite/add/53/106/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/pleasant-grove/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/281/", 
+          "favorite": "/users/favorite/add/57/281/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/281/", 
+        "name": "Solid System", 
+        "audio": "/downloads/281/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "3 Alarm", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/3alarmedit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/307/", 
+          "favorite": "/users/favorite/add/53/307/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/3-alarm/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/475/", 
+          "favorite": "/users/favorite/add/57/475/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/475/", 
+        "name": "Tum Kat Freestyle", 
+        "audio": "/downloads/475/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Steve Harrison, Rodger Harrison and Branwen Cassedy", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/steveharrison520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1255/", 
+          "favorite": "/users/favorite/add/53/1255/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/steve-harrison-rodger-harrison-and-branwen-cassedy/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1593/", 
+          "favorite": "/users/favorite/add/57/1593/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1593/", 
+        "name": "Can't Cry Hard Enough", 
+        "audio": "/downloads/1593/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/c_fall/", 
+        "name": "Falling Is Faster", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/68/", 
+          "favorite": "/users/favorite/add/56/68/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.committedband.com", 
+        "name": "Committed", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/committed_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/158/", 
+          "favorite": "/users/favorite/add/53/158/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/committed/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/100/", 
+          "favorite": "/users/favorite/add/57/100/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/100/", 
+        "name": "Better Off Said", 
+        "audio": "/downloads/100/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ntb_br/", 
+        "name": "By Request", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/145/", 
+          "favorite": "/users/favorite/add/56/145/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.ntbbluegrass.com", 
+        "name": "No Turning Back", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/noturningback_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/39/", 
+          "favorite": "/users/favorite/add/53/39/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/no-turning-back/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/536/", 
+          "favorite": "/users/favorite/add/57/536/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/536/", 
+        "name": "Keeper of the Door", 
+        "audio": "/downloads/536/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/upsidefeds/", 
+        "name": "High Heels and Hand Grenades", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/134/", 
+          "favorite": "/users/favorite/add/56/134/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://upsideband.com", 
+        "name": "Upside", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/upside_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/157/", 
+          "favorite": "/users/favorite/add/53/157/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/upside/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/357/", 
+          "favorite": "/users/favorite/add/57/357/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/357/", 
+        "name": "Song in the Key of C", 
+        "audio": "/downloads/357/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.freddiejones.net", 
+        "name": "Freddie Jones", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/freddiejones520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/217/", 
+          "favorite": "/users/favorite/add/53/217/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/freddie-jones/", 
+        "next_show": {
+          "href": "/events/2009/jun/04/148703/", 
+          "time": "2009-06-04 18:30:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/835/", 
+          "favorite": "/users/favorite/add/57/835/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/835/", 
+        "name": "Aint No Sunshine - Live @ Brooklyn Jazz Cafe - 2/9/06", 
+        "audio": "/downloads/835/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/hb_vv/", 
+        "name": "Virtue and Vice Ministry", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/104/", 
+          "favorite": "/users/favorite/add/56/104/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.happybullets.com", 
+        "name": "Happy Bullets", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/happybullets_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/52/", 
+          "favorite": "/users/favorite/add/53/52/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/happy-bullets/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/190/", 
+          "favorite": "/users/favorite/add/57/190/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/190/", 
+        "name": "Vice and Virtue Ministry", 
+        "audio": "/downloads/190/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/btdandd_bb/", 
+        "name": "Bloody Basin EP", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/40/", 
+          "favorite": "/users/favorite/add/56/40/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.blacktiedynasty.com", 
+        "name": "Black Tie Dynasty", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/btd2.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/48/", 
+          "favorite": "/users/favorite/add/53/48/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/black-tie-dynasty/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/69/", 
+          "favorite": "/users/favorite/add/57/69/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/69/", 
+        "name": "Bloody Basin", 
+        "audio": "/downloads/69/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/btd_stays/", 
+        "name": "This Stays Between Us EP", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/39/", 
+          "favorite": "/users/favorite/add/56/39/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.blacktiedynasty.com", 
+        "name": "Black Tie Dynasty", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/btd2.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/48/", 
+          "favorite": "/users/favorite/add/53/48/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/black-tie-dynasty/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/70/", 
+          "favorite": "/users/favorite/add/57/70/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/70/", 
+        "name": "Die", 
+        "audio": "/downloads/70/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/hifi_stereo/", 
+        "name": "Hi-Fi Stereo", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/827/", 
+          "favorite": "/users/favorite/add/56/827/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.reverendorgandrum.com", 
+        "name": "Reverend Organ Drum", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/reverendorgandrum520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1191/", 
+          "favorite": "/users/favorite/add/53/1191/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/reverend-organ-drum/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1519/", 
+          "favorite": "/users/favorite/add/57/1519/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1519/", 
+        "name": "Bim Bam Baby", 
+        "audio": "/downloads/1519/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "John Solly", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/JohnSolly520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/285/", 
+          "favorite": "/users/favorite/add/53/285/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/john-solly/", 
+        "next_show": {
+          "href": "/events/2009/may/29/145223/", 
+          "time": "2009-05-29 17:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1778/", 
+          "favorite": "/users/favorite/add/57/1778/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1778/", 
+        "name": "Walk With Me", 
+        "audio": "/downloads/1778/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.thesecrethandshake.net", 
+        "name": "Secret Handshake", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/secrethandshake.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1005/", 
+          "favorite": "/users/favorite/add/53/1005/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/secret-handshake/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1148/", 
+          "favorite": "/users/favorite/add/57/1148/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1148/", 
+        "name": "Coastal Cities", 
+        "audio": "/downloads/1148/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.rahimtheband.com", 
+        "name": "Rahim Quazi", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/rahimquazi_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/63/", 
+          "favorite": "/users/favorite/add/53/63/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/rahim-quazi/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1780/", 
+          "favorite": "/users/favorite/add/57/1780/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1780/", 
+        "name": "Sparrow Has Landed", 
+        "audio": "/downloads/1780/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "John Solly", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/JohnSolly520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/285/", 
+          "favorite": "/users/favorite/add/53/285/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/john-solly/", 
+        "next_show": {
+          "href": "/events/2009/may/29/145223/", 
+          "time": "2009-05-29 17:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1775/", 
+          "favorite": "/users/favorite/add/57/1775/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1775/", 
+        "name": "Irresistible Force of Nature", 
+        "audio": "/downloads/1775/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/fb_d/", 
+        "name": "Little D", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/97/", 
+          "favorite": "/users/favorite/add/56/97/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.yofishboy.com", 
+        "name": "Fishboy", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/fishboyedit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/97/", 
+          "favorite": "/users/favorite/add/53/97/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/fishboy/", 
+        "next_show": {
+          "href": "/events/2009/jun/26/144121/", 
+          "time": "2009-06-26 22:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/176/", 
+          "favorite": "/users/favorite/add/57/176/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/176/", 
+        "name": "Cheer Up Great Pumpkin", 
+        "audio": "/downloads/176/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.kevinbanford.com", 
+        "name": "Kevin Banford", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/kevinbanford520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1064/", 
+          "favorite": "/users/favorite/add/53/1064/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/kevin-banford/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1350/", 
+          "favorite": "/users/favorite/add/57/1350/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1350/", 
+        "name": "Where Were You When I Was Single", 
+        "audio": "/downloads/1350/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.old97s.com", 
+        "name": "Old 97's", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/bandedit_.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/7/", 
+          "favorite": "/users/favorite/add/53/7/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/old_97s/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/63/", 
+          "favorite": "/users/favorite/add/57/63/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/63/", 
+        "name": "No Doubt About It", 
+        "audio": "/downloads/63/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.freewebs.com/thedemigs", 
+        "name": "Demigs", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/demigs_520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1401/", 
+          "favorite": "/users/favorite/add/53/1401/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/demigs/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1748/", 
+          "favorite": "/users/favorite/add/57/1748/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1748/", 
+        "name": "Curse on the World", 
+        "audio": "/downloads/1748/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.jackingram.net/", 
+        "name": "Jack Ingram", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/JACKEDIT.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/380/", 
+          "favorite": "/users/favorite/add/53/380/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/jack-ingram/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/183/", 
+          "favorite": "/users/favorite/add/57/183/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/183/", 
+        "name": "Flutter", 
+        "audio": "/downloads/183/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/texas_gypsies/", 
+        "name": "Texas Gypsies", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/288/", 
+          "favorite": "/users/favorite/add/56/288/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.texasgypsies.com", 
+        "name": "Texas Gypsies", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/texasgypsies520x140_.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/614/", 
+          "favorite": "/users/favorite/add/53/614/", 
+          "is_favorited": true
+        }, 
+        "href": "/bands/texas-gypsies/", 
+        "next_show": {
+          "href": "/events/2009/jun/05/132747/", 
+          "time": "2009-06-05 19:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1000/", 
+          "favorite": "/users/favorite/add/57/1000/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1000/", 
+        "name": "Dallas and Ft. Worth", 
+        "audio": "/downloads/1000/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.jetscreamertx.com", 
+        "name": "jetscreamer", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/jetscreamer_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/100/", 
+          "favorite": "/users/favorite/add/53/100/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/jetscreamer/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/597/", 
+          "favorite": "/users/favorite/add/57/597/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/597/", 
+        "name": "Black Hole", 
+        "audio": "/downloads/597/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/drag_it_up/", 
+        "name": "Drag It Up", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/254/", 
+          "favorite": "/users/favorite/add/56/254/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.old97s.com", 
+        "name": "Old 97's", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/bandedit_.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/7/", 
+          "favorite": "/users/favorite/add/53/7/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/old_97s/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/65/", 
+          "favorite": "/users/favorite/add/57/65/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/65/", 
+        "name": "Valium Waltz", 
+        "audio": "/downloads/65/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/the_revolution_mm/", 
+        "name": "Revolution Has Begun", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/241/", 
+          "favorite": "/users/favorite/add/56/241/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.madmexicans.com", 
+        "name": "Mad Mexicans", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/madmexicans_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/141/", 
+          "favorite": "/users/favorite/add/53/141/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/mad-mexicans/", 
+        "next_show": {
+          "href": "/events/2009/may/30/146367/", 
+          "time": "2009-05-30 21:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/578/", 
+          "favorite": "/users/favorite/add/57/578/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/578/", 
+        "name": "Puro Chingasos", 
+        "audio": "/downloads/578/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/trw_knot/", 
+        "name": "Knotty Tales", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/148/", 
+          "favorite": "/users/favorite/add/56/148/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.trinityriverwhalers.com", 
+        "name": "Trinity River Whalers", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/trinityriverwhalers520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/431/", 
+          "favorite": "/users/favorite/add/53/431/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/trinity-river-whalers/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/677/", 
+          "favorite": "/users/favorite/add/57/677/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/677/", 
+        "name": "Johnny Jump Up", 
+        "audio": "/downloads/677/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/playin_cellos/", 
+        "name": "Playin' Cellos", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/164/", 
+          "favorite": "/users/favorite/add/56/164/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.the440alliance.com", 
+        "name": "440 Alliance", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/440alliance520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/748/", 
+          "favorite": "/users/favorite/add/53/748/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/440-alliance/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/910/", 
+          "favorite": "/users/favorite/add/57/910/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/910/", 
+        "name": "Classic Crunk", 
+        "audio": "/downloads/910/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "John Solly", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/JohnSolly520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/285/", 
+          "favorite": "/users/favorite/add/53/285/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/john-solly/", 
+        "next_show": {
+          "href": "/events/2009/may/29/145223/", 
+          "time": "2009-05-29 17:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1776/", 
+          "favorite": "/users/favorite/add/57/1776/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1776/", 
+        "name": "What Kind of Woman?", 
+        "audio": "/downloads/1776/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.freewebs.com/thedemigs", 
+        "name": "Demigs", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/demigs_520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1401/", 
+          "favorite": "/users/favorite/add/53/1401/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/demigs/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1749/", 
+          "favorite": "/users/favorite/add/57/1749/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1749/", 
+        "name": "My Empty Vessel", 
+        "audio": "/downloads/1749/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/what_doesnt_wc/", 
+        "name": "What Doesn't Kill You", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/294/", 
+          "favorite": "/users/favorite/add/56/294/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.withinchaos.com", 
+        "name": "Within Chaos ", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/necrogazm_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/207/", 
+          "favorite": "/users/favorite/add/53/207/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/within-chaos/", 
+        "next_show": {
+          "href": "/events/2009/jun/05/136328/", 
+          "time": "2009-06-05 21:00:00"
+        }
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/958/", 
+          "favorite": "/users/favorite/add/57/958/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/958/", 
+        "name": "What Doesn't Kill You", 
+        "audio": "/downloads/958/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/ntb_br/", 
+        "name": "By Request", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/145/", 
+          "favorite": "/users/favorite/add/56/145/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.ntbbluegrass.com", 
+        "name": "No Turning Back", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/noturningback_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/39/", 
+          "favorite": "/users/favorite/add/53/39/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/no-turning-back/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/541/", 
+          "favorite": "/users/favorite/add/57/541/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/541/", 
+        "name": "Where The Roses Never Fade", 
+        "audio": "/downloads/541/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "Queen for a Day", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/queenforaday_edit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/331/", 
+          "favorite": "/users/favorite/add/53/331/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/queen-day/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1779/", 
+          "favorite": "/users/favorite/add/57/1779/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1779/", 
+        "name": "Untrue", 
+        "audio": "/downloads/1779/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "", 
+        "name": "P.P.T.", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/ppt.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/802/", 
+          "favorite": "/users/favorite/add/53/802/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/ppt/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/952/", 
+          "favorite": "/users/favorite/add/57/952/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/952/", 
+        "name": "P.P.T. Listening Party", 
+        "audio": "/downloads/952/"
+      }
+    }, 
+    {
+      "album": {
+        "href": "/albums/freek_xmas/", 
+        "name": "Very Freeky Christmas", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/56/93/", 
+          "favorite": "/users/favorite/add/56/93/", 
+          "is_favorited": false
+        }
+      }, 
+      "band": {
+        "band_site": "http://www.thefreekout.com/", 
+        "name": "Freek Out", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/freekedit.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/334/", 
+          "favorite": "/users/favorite/add/53/334/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/freek-out/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/147/", 
+          "favorite": "/users/favorite/add/57/147/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/147/", 
+        "name": "Zombie Christmas", 
+        "audio": "/downloads/147/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.blacktiedynasty.com", 
+        "name": "Black Tie Dynasty", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/btd2.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/48/", 
+          "favorite": "/users/favorite/add/53/48/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/black-tie-dynasty/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/334/", 
+          "favorite": "/users/favorite/add/57/334/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/334/", 
+        "name": "Crime Scene", 
+        "audio": "/downloads/334/"
+      }
+    }, 
+    {
+      "album": null, 
+      "band": {
+        "band_site": "http://www.kevinbanford.com", 
+        "name": "Kevin Banford", 
+        "banner": "http://media.pegasusnews.com/img/bands/leadart/kevinbanford520x140.jpg", 
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/53/1064/", 
+          "favorite": "/users/favorite/add/53/1064/", 
+          "is_favorited": false
+        }, 
+        "href": "/bands/kevin-banford/", 
+        "next_show": null
+      }, 
+      "song": {
+        "favoriting": {
+          "unfavorite": "/users/favorite/delete/57/1349/", 
+          "favorite": "/users/favorite/add/57/1349/", 
+          "is_favorited": false
+        }, 
+        "href": "/songs/1349/", 
+        "name": "Texas Love", 
+        "audio": "/downloads/1349/"
+      }
+    }
+  ], 
+  "previous_page": null, 
+  "playlist_total_length": 100, 
+  "session_cookie_name": "sessionid", 
+  "is_authed": true, 
+  "playlist_name": "Top 100 downloads"
+}

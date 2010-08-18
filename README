@@ -1,0 +1,20 @@
+Pegasus Player
+--------------
+
+The Pegasus Player was originally developed for the redesign of Pegasus News.  The main benefits are the ability to use it as a chromeless player accessed through Javascript, and the ability to use JSON playlists in the full player.
+
+Integration of the player into Pegasus News was put on hold while we pursue other goals, but in the meantime we wanted to make it available to the open source community so that it can be put to good use.
+
+PegasusPlayerCommonLib:
+
+This contains the core Audio classes needed to play MP3s. The PegasusPlayerFlex and PegasusPlayerAS3 both require PegasusPlayerCommonLib.
+
+PegasusPlayerAS3:
+
+This is intended to be a 1x1 pixel swf accessed via JavaScript.
+
+PegasusPlayerFlex:
+
+This is a full featured Flex 3 player for playing playlists retrieved from a service in the JSON format.
+
+To build the flex player you need to modify build.properties to suit your environment. It will build against Flex SDK 3.3.0-4.0.0

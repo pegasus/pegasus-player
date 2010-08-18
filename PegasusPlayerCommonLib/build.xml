@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Pegasus Common Lib Library Build" basedir="." default="flex.it">
+
+    <property environment="env" />
+    <property file="build.properties" />
+    <property name="FLEX_HOME" value="${flex.sdk.location}"/>
+    <property name="flex.output.dir" value="${app.root}/build"/>
+    	
+    <target name="flex.it" depends="init">
+    	<echo message="Everybody get funky."/>
+        <echo message="Flex SDK location: ${FLEX_HOME}"/>
+        <!-- compile main mxml file -->
+        <compile_library src-folder="${app.root}/src" out-file="${flex.output.dir}/${app.name}.swc"/>
+    </target>  
+	
+    <target name="init" >
+    	<echo message="Initializing the build."/>
+        <taskdef resource="flexTasks.tasks"  classpath="${FLEX_HOME}/ant/lib/flexTasks.jar" />
+        <mkdir dir="${flex.output.dir}"/>
+    </target>
+	
+    <!-- Macro - compile the application  -->
+    <macrodef name="compile_library">
+        <attribute name="src-folder"/>
+        <attribute name="out-file"/>
+        <sequential>
+            <compc output="@{out-file}">
+                <source-path path-element="@{src-folder}"/>
+                <!-- include our Class packages into the build (com folder) -->
+            	<include-sources dir="@{src-folder}/com" includes="*"/>
+            </compc>
+        	<echo>SWC created</echo>
+        </sequential>
+     </macrodef>
+</project>

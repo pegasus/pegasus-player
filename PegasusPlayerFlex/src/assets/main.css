@@ -1,0 +1,7 @@
+/* CSS file */
+Slider.pegSlider
+{
+	trackSkin: Embed(source="controls.swf", symbol="sliderTrack");
+	trackHighlightSkin: Embed(source="controls.swf", symbol="sliderTrackHighlight");
+	thumbSkin: Embed(source="controls.swf", symbol="sliderThumb");
+}
